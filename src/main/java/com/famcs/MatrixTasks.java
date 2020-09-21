@@ -15,7 +15,7 @@ public class MatrixTasks {
             int n = scanner.nextInt();
             int m = scanner.nextInt();
 
-            if (n * m <= 0) {
+            if (n <= 0 || m <= 0) {
                 throw new InvalidFormatException("n and m must be positive");
             }
 
